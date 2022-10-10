@@ -5,10 +5,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
+import org.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @EnableEurekaClient
+@ComponentScan("com.course")
+@MapperScan("com.course.system.mapper")
 
 
 public class SystemApplication {
