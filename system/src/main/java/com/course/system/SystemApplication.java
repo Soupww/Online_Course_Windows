@@ -8,6 +8,7 @@ import org.springframework.core.env.Environment;
 
 @SpringBootApplication
 
+
 public class SystemApplication {
 	private static final Logger LOG = LoggerFactory.getLogger(SystemApplication.class);
 	public static void main(String[] args) {
