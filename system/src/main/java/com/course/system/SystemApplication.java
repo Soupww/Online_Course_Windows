@@ -12,7 +12,7 @@ import org.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 @EnableEurekaClient
 @ComponentScan("com.course")
-@MapperScan("com.course.system.mapper")
+@MapperScan("com.course.server.mapper")
 
 
 public class SystemApplication {
